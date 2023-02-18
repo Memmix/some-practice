@@ -1,0 +1,68 @@
+{
+  "BLOCKS": [
+    {
+      "width": "45px",
+      "height": "31px",
+      "background": "orange",
+      "top": "363px",
+      "left": "273px",
+      "id": 1
+    },
+    {
+      "width": "10px",
+      "height": "20px",
+      "background": "blue",
+      "top": "412px",
+      "left": "785px",
+      "id": 2
+    },
+    {
+      "width": "69px",
+      "height": "69px",
+      "background": "yellow",
+      "top": "12px",
+      "left": "595px",
+      "id": 3
+    },
+    {
+      "width": "100px",
+      "height": "100px",
+      "background": "orange",
+      "top": "256px",
+      "left": "79px",
+      "id": 4
+    },
+    {
+      "width": "120px",
+      "height": "120px",
+      "background": "green",
+      "top": "368px",
+      "left": "210px",
+      "id": 5
+    },
+    {
+      "width": "150px",
+      "height": "150px",
+      "background": "black",
+      "top": "132px",
+      "left": "477px",
+      "id": 6
+    },
+    {
+      "width": "350px",
+      "height": "350px",
+      "background": "brown",
+      "top": "95px",
+      "left": "382px",
+      "id": 7
+    },
+    {
+      "width": "350px",
+      "height": "50px",
+      "background": "black",
+      "top": "12px",
+      "left": "489px",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "USERS": [
+        {
+            "name": "Alex",
+            "comment": "lorem lorem lorem lorem lorem lorem"
+        },
+        {
+            "name": "Harold",
+            "comment": "lorem lorem lorem lorem lorem lorem"
+        },
+        {
+            "name": "Stewie",
+            "comment": "lorem lorem"
+        },
+        {
+            "name": "Jack",
+            "comment": "lorem lorem lorem"
+        }
+    ]
+}
