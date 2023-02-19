@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const readStream = fs.createReadStream('./docs/text.txt')
-const writeStream = fs.createWriteStream('/.docs/textNEW.txt')
+const writeStream = fs.createWriteStream('./docs/textNEW.txt')
 
 //если в момент чтения данных происходит ошибка, то уничтожаем читающий поток,
 //т.к. поврежденные файлы передавать не следует
