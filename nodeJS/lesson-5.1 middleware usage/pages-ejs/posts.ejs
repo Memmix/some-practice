@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs') %>
+
+    <body>
+        <div class="wrapper-posts">
+            <%- include('./partials/menu.ejs') %>
+                <h1>Все посты:</h1>
+                <ul class="posts-list">
+                    <li>
+                        <article>
+                            <h2 class="posts-list-title">
+                                <a href="/posts/1">Название поста</a>
+                            </h2>
+                            <p class="posts-list-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Laudantium, earum inventore! Libero
+                                atque perferendis deleniti, ullam fuga cupiditate sed, porro laborum tempore reiciendis
+                                officia
+                                facere distinctio repudiandae ratione laboriosam optio?</p>
+                            <div class="info">
+                                <span class="date">01.01.2000</span>
+                                <span class="author">J.</span>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+        </div>
+    </body>
+
+</html>
