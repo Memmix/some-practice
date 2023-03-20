@@ -1,4 +1,6 @@
 node_modules
 package-lock.json
 regexp
-lesson-6.1 mongoDB
+lesson-6.1 mongoDB-API
+lesson-6.2 mongoDB
+homework
