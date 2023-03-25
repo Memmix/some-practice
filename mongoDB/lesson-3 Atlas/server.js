@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const userRoutes = require('./routes/user-routes')
 
-const URL = 'mongodb+srv://Jey:qwerty123@cluster0.yijfnjm.mongodb.net/usersDB?retryWrites=true&w=majority'
+const URL = '...' // своё
 
 const app = express()
 app.use(express.json())
