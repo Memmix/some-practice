@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const Product = require('./models/products')
 
 // Подключаемся к базе данных
-const db = 'mongodb+srv://Jey:123qwerty123@cluster0.mjljvit.mongodb.net/productsDB?retryWrites=true&w=majority'
+const db = ''// !ССЫЛКА НА ВАШУ БД!
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(res => { console.log('connected to DB') })
