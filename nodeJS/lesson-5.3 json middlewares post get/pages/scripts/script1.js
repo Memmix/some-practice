@@ -1,6 +1,8 @@
 const button1 = document.querySelector('.postBtn')
 const button2 = document.querySelector('.getBtn')
 
+console.log('hi')
+
 const getData = url => {
 	return new Promise((resolve, reject) =>
 		fetch(url)
@@ -25,7 +27,7 @@ const postData = (url, product) => {
 
 button1.addEventListener('click', async () => {
 	try {
-		await postData('http://localhost:3000/page1', {
+		await postData('http://localhost:3000/addData', {
 			name: 'Иван',
 			age: 35
 		}).then(response => {
@@ -38,7 +40,7 @@ button1.addEventListener('click', async () => {
 
 button2.addEventListener('click', async () => {
 	try {
-		const products = await getData('http://localhost:3000/data')
+		const products = await getData('http://localhost:3000/getData')
 		console.log(products)
 	} catch (err) {
 		console.error(err)
