@@ -4,3 +4,4 @@ regexp
 lesson-6.1 mongoDB-API
 lesson-6.2 mongoDB
 homework
+.env
